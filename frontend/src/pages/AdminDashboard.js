@@ -1115,12 +1115,61 @@ const AdminDashboard = () => {
             <Table stickyHeader>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem' }}>Project Info</TableCell>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem' }}>Ecosystem & Area</TableCell>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem' }}>AI Verification</TableCell>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem' }}>Status</TableCell>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem' }}>Submitted</TableCell>
-                  <TableCell sx={{ fontWeight: 700, fontSize: '1rem', textAlign: 'center' }}>Actions</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>Project Info</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>Ecosystem & Area</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>AI Verification</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>Status</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>Submitted</TableCell>
+                  <TableCell sx={{ 
+                    fontWeight: 700, 
+                    fontSize: '1rem', 
+                    textAlign: 'center',
+                    color: '#FFFFFF !important',
+                    background: 'linear-gradient(135deg, #8A2BE2 0%, #4A90E2 100%)',
+                    backgroundClip: 'text',
+                    WebkitBackgroundClip: 'text',
+                    textShadow: '0 2px 4px rgba(138, 43, 226, 0.3)',
+                  }}>Actions</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
