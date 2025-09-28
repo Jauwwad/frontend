@@ -1,0 +1,13 @@
+{
+  "name": "sih-frontend-deployment",
+  "version": "1.0.0",
+  "description": "Deployment wrapper for Blue Carbon MRV Frontend",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
