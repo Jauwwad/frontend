@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Deployment wrapper for Blue Carbon MRV Frontend",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install && npx craco build",
     "start": "cd frontend && npm start"
   },
   "engines": {

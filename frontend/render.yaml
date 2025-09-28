@@ -2,7 +2,7 @@ services:
   - type: web
     name: blue-carbon-mrv-frontend
     env: static
-    buildCommand: npm install && npm run build
+    buildCommand: npm install && npx craco build
     staticPublishPath: ./build
     routes:
       - type: rewrite
